@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>Персона Лайф. фитнес-клуб в центре Аксая</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg scroll navbar-light">
+        <div class="container-fluid justify-content-between">
+            <a class="navbar-brand" href="#top"><img src="images/Persona.png" class="logo" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <p class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images/Persona.png" class="logo"
+                            alt="">
+                    </p>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="Index.html"> <i
+                                    class="bi bi-house-fill"></i> Главная</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-bag-check-fill"></i> Услуги
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="Gym.html">Тренажерный зал</a></li>
+                                <li><a class="dropdown-item" href="Box.html">Единоборства</a></li>
+                                <li><a class="dropdown-item" href="Group.html">Mix-сила</a></li>
+                                <!-- <li>
+                                    <hr class="dropdown-divider">
+                                </li> -->
+                                <li><a class="dropdown-item" href="Yoga.html">Йога</a></li>
+                                <li><a class="dropdown-item" href="Stretch.html">Стретчинг</a></li>
+                                <li><a class="dropdown-item" href="Zumba.html">Зумба</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Aboniments.html"><i class="bi bi-trophy-fill"></i> Абонементы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Crew.html"><i class="bi bi-person-fill"></i> Команда</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contacts.html"><i class="bi bi-geo-alt-fill"></i> Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tel:+78635044100"><i class="bi bi-telephone-fill"></i>
+                                <span class="d-lg-none d-xl-inline ">+7(863)-504-41-00</span> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="box">
+        <div class="row1 ">
+            <div class="titul1 width-auto ">Персона Лайф </div>
+            <h1 class="main-title width-auto">Фитнес клуб премиум класса с парковкой в центре Аксая </h1>
+            <!-- <div class="main-text1 ">Cпортивный клуб с уникальной линейкой тренажеров и оборудования.</div> -->
+            <!-- <div class="main-text2 "> Cпортивный клуб с уникальной линейкой тренажеров и с собственной парковкой.</div>  -->
+        </div>
+        <div class="container-fluid first-training">
+
+            <form id="form" method="post" class="row input m15  gy-3 gx-5 justify-content-center align-items-center">
+                <div class="titul3 mb-lg-5 mb-3">Запишись на бесплатную пробную тренировку!</div>
+                <div class="col-auto">
+                    <input type="hidden" name="project_name" value="PersonaLife">
+                    <input type="hidden" name="admin_email" value="shevtsov7781@yandex.ru">
+                    <input type="hidden" name="form_subject" value="Запись на первую тренировку">
+                    <label class="visually-hidden" for="autoSizingInput">Имя</label>
+                    <input name="name" type="text" class="form-control" id="autoSizingInput" placeholder="Имя" required>
+                </div>
+                <div class="col-auto sm-mt-2">
+                    <label class="visually-hidden" for="autoSizingInputGroup">Номер телефона</label>
+                    <div class="input-group">
+                        <div class="input-group-text">+7</div>
+                        <input name="tel" type="text" class="form-control" id="autoSizingInputGroup"
+                            placeholder="(000)-000-00-00" required>
+                    </div>
+                </div>
+
+                <div class="col-auto sm-mt-2">
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </div>
+                <p class="text-center mt-5">Нажимая на кнопку Отправить вы даёте согласие на <a href="/">обработку
+                        персональных
+                        данных.</a> </p>
+            </form>
+        </div>
+
+
+        <div class="advantages-box">
+            <div class="container my-5">
+                <h2 class="titul3 my-lg-5 my-md-4 my-3" id="black">Качественный фитнес по оптимальной цене</h2>
+                <div class="row  align-items-center">
+                    <div class="item col-xxl-3 col-sm-6">
+                        <img class="pic-item" src="images/adv1.png" alt="">
+                        <div class="item-text">
+                            <h4> Места в зале хватит всем</h4>
+                            Трехэтажный комплекс в центре Аксая. Просторная зона тренажеров, аэробные залы, кабинет
+                            массажа
+                            и косметологии
+                        </div>
+                    </div>
+                    <div class="item col-xxl-3 col-sm-6">
+                        <img class="pic-item" src="images/adv2.png" alt="">
+                        <div class="item-text">
+                            <h4>Групповые <p>занятия</p>
+                            </h4>
+                            Есть зоны бокса, йоги, аэробики и pole-dance. Каждый день проводятся групповые тренировки с
+                            инструкторами
+                        </div>
+                    </div>
+                    <div class="item col-xxl-3 col-sm-6">
+                        <img class="pic-item" src="images/adv3.png" alt="">
+                        <div class="item-text">
+                            <h4>Удобная система оплаты</h4>
+                            Несколько видов клубных абонементов под разные цели: 8, 12 посещений,
+                            а также безлимитный месячный абонемент
+                        </div>
+                    </div>
+                    <div class="item col-xxl-3 col-sm-6">
+                        <img class="pic-item" src="images/adv4.png" alt="">
+                        <div class="item-text">
+                            <h4>Персональные тренировки</h4>
+                            Индивидуальные программы и достижение результата с тренером, всего 700р за занятие,
+                            абонемент не требуется
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <h2 class="titul3 my-lg-5 my-3 py-3" id="black">Зоны фитнес-клуба Персона Лайф</h2>
+            <div class="row justify-content-around align-items-center">
+                <div class="col-md-5 col-sm-10 mb-md-5 mb-4 ">
+                    <img class="adv-img img-fluid" src="images/1.jpg" alt="1.png">
+                </div>
+                <div class="col-md-5 col-sm-10 adv-right mb-md-5 mb-4">
+                    <h3 class="f20-md">Тренажерный зал</h3>
+                    Основной тренажерный зал оснащен силовыми и кардио-тренажерами премиум-класса от бренда Life Fitness
+                    — ведущего мирового производителя оборудования для фитнеса.
+                </div>
+            </div>
+            <div class="row justify-content-around align-items-center  " id="rev">
+                <div class="col-md-5 col-sm-10 adv-left mb-md-5 mb-4">
+                    <img class="adv-img img-fluid" src="images/10.jpg" alt="1.png">
+                </div>
+                <div class="col-md-5 col-sm-10 adv-right mb-md-5 mb-4">
+                    <h3 class="f20-md">Зона единоборств</h3>
+                    Зона бокса и функционального тренинга общей площадью 100 м². Здесь проходят и групповые, и
+                    индивидуальные тренировки на качественном спортивном оборудовании .
+                </div>
+            </div>
+            <div class="row justify-content-around align-items-center ">
+                <div class="col-md-5 col-sm-10 mb-md-5 mb-4">
+                    <img class="adv-img img-fluid" src="images/9.jpg" alt="1.png">
+                </div>
+                <div class="col-md-5 col-sm-10 adv-right mb-md-5 mb-4">
+                    <h3 class="f20-md">Зона групповых тренировок</h3>
+                    Просторные светлые залы оборудован большими зеркалами и цветомузыкальной установкой. На полу
+                    амортизирующее покрытие. Хорошая вентиляция и кондиционирование. 
+                </div>
+            </div>
+            <div class="row justify-content-around align-items-center " id="rev">
+                <div class="col-md-5 col-sm-10 mb-md-5 mb-4 ">
+                    <img class="adv-img img-fluid" src="images/13.jpg" alt="1.png">
+                </div>
+                <div class="col-md-5 col-sm-10 adv-right mb-md-5 mb-4">
+                    <h3 class="f20-md">Спорт бар</h3>
+                    Здесь вы сможете перекусить до и после тренировки. Еда из свежих и полезных продуктов: вкусные
+                    завтраки и ланчи, батончики, печенья, напитки и много другое. Для членов клуба действуют акции и
+                    скидки.
+                </div>
+            </div>
+            <div class="row justify-content-around align-items-center ">
+                <div class="col-md-5 col-sm-10 mb-md-5 mb-4">
+                    <img class="adv-img img-fluid" src="images/12.jpg" alt="1.png">
+                </div>
+                <div class="col-md-5 col-sm-10 adv-right mb-md-5 mb-4">
+                    <h3 class="f20-md">Кабинет массажа</h3>
+                    Современные раздевалки и душевые – здесь чисто и просторно. В камеры хранения поместятся
+                    обувь, сумка и одежда. Каждому посетителю выдается ключ от его шкафчика.
+                </div>
+            </div>
+            <div class="row justify-content-around align-items-center" id="rev">
+                <div class="col-md-5 col-sm-10 mb-md-5 mb-4">
+                    <img class="adv-img img-fluid" src="images/7.png" alt="1.png">
+                </div>
+                <div class="col-md-5 col-sm-10 adv-right mb-md-5 mb-4">
+                    <h3 class="f20-md">Детская зона</h3>
+                    Это место, в котором вы можете оставить ребенка, покавы занимаетесь.
+                    Имеется масса рисовальных принадлежнастей.
+                </div>
+            </div>
+            <div class="row justify-content-around align-items-center ">
+                <div class="col-md-5 col-sm-10 mb-md-5 mb-4">
+                    <img class="adv-img img-fluid" src="images/sol.jpg" alt="1.png">
+                </div>
+                <div class="col-md-5 col-sm-10 adv-right mb-md-5 mb-4">
+                    <h3 class="f20-md">Солярий</h3>
+                    Вертикальный солярий премиум-класса с новыми лампами и обработкой после каждого посетителя.
+                    Поможет
+                    получить легкий загар как после отпуска.
+                </div>
+            </div>
+            <div class="row justify-content-around align-items-center" id="rev">
+                <div class="col-md-5 col-sm-10 mb-md-5 mb-4">
+                    <img class="adv-img img-fluid" src="images/10.png" alt="1.png">
+                </div>
+                <div class="col-md-5 col-sm-10 adv-right mb-md-5 mb-4">
+                    <h3 class="f20-md">Салон красоты Persona life</h3>
+                    Имеются филиалы салонов красоты, на ул. Мира 2а "Персона Люкс" и на ул. Садовая 30 "Персона", и ряд
+                    косметологических услуг в фитнес-клубе Персона Лайф.
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="videoblock m50">
+            <div class="container">
+                <div class="row m100 align-items-center justify-content-between">
+                    <div class="video col-lg-6 col-md-12 pe-lg-5 pe-md-3 pe-sm-0">
+                        <iframe width="100%" height="310"
+                            src="https://www.youtube.com/embed/L95BjGKLSK4?showinfo=0&amp; border=0" frameborder="0"
+                            allowfullscreen></iframe>
+
+                    </div>
+                    <ul class="videotext col-lg-6 col-md-12 ps-lg-5 ps-md-3 ps-sm-0 ">
+                        <li>
+                            В наших клубах проводятся акции на покупку клубных карт
+                            подробности условий акций Вы можете узнать на наших страницах в
+                            соцсетях или по контактным номерам телефона, указанных на сайте
+                        </li>
+                        <li>
+                            В наших клубах есть огромный выбор подарочных сертификатов на
+                            любой вкус, которые Вы можете приобрести для себя и своих близких
+                            подробности Вы можете узнать на стойках рецепции у администраторов
+                        </li>
+                        <li>
+                            В наших клубах регулярно проводятся различные спортивные
+                            соревнования местного и областного уровня
+                            подробности о проведении которых Вы можете узнать на наших
+                            страницах в соцсетях или по контактным номерам телефона, указанных на сайте
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+        <div class="serv-text my-lg-5 my-2">
+            <div class="container">
+                <div class="row py-lg-5 py-3">
+                    В PersonaLife проводятся акции на покупку клубных карт.
+                    Подробности условий акций вы можете узнать на наших страницах в
+                    соцсетях или по контактным номерам телефона, указанных на сайте.
+
+                </div>
+            </div>
+
+        </div>
+        <!-- Gallery START-->
+        <div class="slider ">
+            <div class="container-fluid">
+                <div class="titul3" id="black">Галерея</div>
+                <div class="row slider-row align-items-center justify-content-center my-lg-5 mx-lg-5 my-3 mx-0 ">
+
+                    <img class="arrow left col-1" src="images/left.png" alt="">
+                    <div class="slider_img col-12  ">
+                        <img class="img-fluid" src="images/1.jpg">
+                    </div>
+                    <img class="arrow right col-1" src="images/right.png" alt="">
+
+                    <div class="slider_buttons" id="buttons">
+                        <button class="slider_btn slider-btn-ad active0"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+                        <button class="slider_btn slider-btn-ad"></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery END-->
+
+
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-between text-center">
+                    <div class="col-md-3 col-sm-12 my-3 text-sm ">
+                        <a href="/"><img src="images/Persona.png" class="logo mb-2" alt=""></a>
+                        <br>
+                        <a href="https://vk.com/personafitnessclub" target="_blank"><img src="images/vk.png"></a>
+                        <a href="https://ok.ru/group/60000720453665" target="_blank"><img src="images/tg.png"></a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 d-flex flex-column footer_center text-sm ">
+                        <p>Контакты</p>
+                        <a href="tel:+78635044100">+7(863)504-41-00</a>
+                        <a href="mailto:personafit@mail.ru">personafit@mail.ru</a>
+                        <a> г. Аксай, улица Ленина 10 </a>
+
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-sm my-3">
+                        <p>Документы</p>
+                        <a href="">Политика конфиденциальности</a>
+                        <br>
+                        <a>© 2022, фитнес-клуб PersonaLife</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/submit.js"></script>
+
+</body>
+
+</html>

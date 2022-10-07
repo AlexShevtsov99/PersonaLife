@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+
+  <title>Абонементы</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg scroll navbar-light">
+    <div class="container-fluid justify-content-between">
+      <a class="navbar-brand" href="#"><img src="images/Persona.png" class="logo" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images/Persona.png" class="logo" alt=""></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+        <div class="offcanvas-body">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Index.html"> <i class="bi bi-house-fill"></i> Главная</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-bag-check-fill"></i> Услуги
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Тренажерный зал</a></li>
+              <li><a class="dropdown-item" href="#">Групповые занятия</a></li>
+              <li><a class="dropdown-item" href="#">Единоборства</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Бар</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Aboniments.html"><i class="bi bi-trophy-fill"></i> Абонементы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Crew.html"><i class="bi bi-person-fill"></i> Команда</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contacts.html"><i class="bi bi-geo-alt-fill"></i> Контакты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tel:+78635044100"><i class="bi bi-telephone-fill"></i> +7(863)-504-41-00</a>
+          </li>
+        </ul>
+    </div>
+      </div>
+    </div>
+  </nav>
+  <div class="box">
+    <!-- //Добавить расписание -->
+    <div class="container pt100">
+      <h2 class="titul2 f30-md" id="black">Перечень абонементов</h2>
+      <div class="row justify-content-center p50">
+        <!-- <div class="col-lg-8 col-md-12 mb-5">
+          <h3 class="text-center mb-5">Разовые тренировки</h3>
+          <div class="accordion accordion-flush " id="accordion1">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                  aria-expanded="false" aria-controls="collapse1">
+                  Стандартная тренировка
+                </button>
+              </h2>
+              <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body">
+                  Вы можете самостоятельно использовать все тренажеры на территории зала.
+                  Время неограничено. Цена - 350р</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                  Аэробная бизнес тренировка индивидуально 2 чел
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body">Тренировка на выносливость под руководством тренера. Вы можете заниматься
+                  вместе со своим партнером или другом. Продолжительность тренировки - 1 час. Цена - 700р/чел</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  Аэробная VIP тренировка 1 чел
+                </button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body"> Индивидуальная тренировка на выносливость под руководством тренера.
+                  Продолжительность тренировки - 1 час. Цена - 1000р </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                  Разовый визит + перс. трен
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body"> Cплин-
+                  тренировка под руководством тренера (несколько
+                  человек вместе) Продолжительность тренировки - 1 час. Цена - 700р </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                  Индивидуальная тренировка
+                </button>
+              </h2>
+              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body"> Индивидуальная
+                  тренировка под руководством тренера в зале. Продолжительность тренировки - 1 час. Цена - 1000р </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                  Восстановительная тренировка(индивидуально)
+                </button>
+              </h2>
+              <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body"> Индивидуальная восстановительная
+                  тренировка под руководством тренера. Продолжительность тренировки - 1 час. Цена - 700р </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading7">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                  Доплата к абонементу за занятие с тренером
+                </button>
+              </h2>
+              <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body"> Вы можете пользоваться услугами тренеров, если имеете любой из наших
+                  абониментов. Продолжительность тренировки - 1 час. Цена - 400р </div>
+              </div>
+
+              <!-- <div class="accordion-item">
+                <h2 class="accordion-header" id="headingl">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsel" aria-expanded="false" aria-controls="collapse0">
+                    Индивидуальная программа
+                    тренировок
+                  </button>
+                </h2>
+                <div id="collapse0" class="accordion-collapse collapse" aria-labelledby="heading0"
+                  data-bs-parent="#accordion1">
+                  <div class="accordion-body"> Составление индивидуальной программы тренировок. Цена - 1200р </div>
+                </div> -->
+<!-- 
+            </div>
+
+          </div>
+        </div> 
+
+        <div class="col-lg-8 col-md-12 ">
+          <h3 class="text-center mt-5 mt-lg-0 mb-5">Абонементы</h3>
+          <div class="accordion accordion-flush " id="accordion2">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8"
+                  aria-expanded="false" aria-controls="collapse8">
+                  Абонемент на 12 групповых посещений
+                </button>
+              </h2>
+              <div id="collapse8" class="accordion-collapse collapse show" aria-labelledby="heading8"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body">Вы можете самостоятельно использовать все тренажеры на территории зала в
+                  течении 12 трениривок.
+                  Время неограничено. Цена - 3500р</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                  Абонемент на аэробные бизнес
+                  тренировки 2 чел. 12 пос.
+                </button>
+              </h2>
+              <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body">Тренировка на выносливость под руководством тренера. Вы можете заниматься
+                  вместе со своим партнером или другом. Продолжительность тренировки - 1 час. Цена - 7000р</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading10">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                  Абонемент на аэробную VIP
+                  тренировку 1 чел. 12 пос.
+                </button>
+              </h2>
+              <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body"> Индивидуальная тренировка на выносливость под руководством тренера.
+                  Продолжительность тренировки - 1 час. Цена - 10000р </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading11">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                  Абонемент на 12 посещений
+                  тренажёрный зал
+                </button>
+              </h2>
+              <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body"> >Вы можете самостоятельно использовать все тренажеры на территории зала в
+                  течении 12 трениривок.
+                  Время неограничено. Цена - 3200р</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading12">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                  Безлимитный абонемент в
+                  тренажерный зал.
+                </button>
+              </h2>
+              <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body"> >Вы можете самостоятельно использовать все тренажеры на территории зала в
+                  течении 30 дней.
+                  Время неограничено. Цена - 3300р </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading13">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                  Абонемент на перс. трен.
+                </button>
+              </h2>
+              <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body"> Cплин- тренировка под руководством тренера (несколько человек вместе)
+                  Продолжительность тренировки - 1 час. Цена - 7700р </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading14">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                  Абонемент на восстановительные
+                  тренировки.
+                </button>
+              </h2>
+              <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body">Индивидуальная восстановительная тренировка под руководством тренера.
+                  Продолжительность тренировки - 1 час. Цена - 13000р </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="row justify-content-center mb-5">
+        <div class="col-9">
+          <h4 class="text-center mb-5">Корпоративное предложение</h4>
+          <ul class="list">
+            <li>1. При приобретении от 5 до 9 клубных
+              карт организации предоставляется скидка 5% от
+              действующих цен клуба на каждый абонемент</li>
+            <li> 2. При приобретении от 10 до 19 клубных
+              карт предоставляется скидка 10% на каждый
+              абонемент.</li>
+            <li>3. При приобретении от 20 и выше клубных
+              карт предоставляется скидка 15% на каждый
+              абонемент.</li>
+            <li>4. Для студентов при наличии студенческого билета предоставляется 15% скидка на
+              безлимитный абонемент в тренажерный зал.</li>
+          </ul> -->
+
+        </div>
+
+      </div>
+      <!-- <div class="col-12 mt-5 mb-2 text-center mb-5">
+        <H4>Важно!</H4>
+    В рамках корпоративного предложения могут быть
+    приобретены клубные карты, как в тренажерный
+    зал, так и в зал аэробики. По абонементам в
+    тренажерный зал посещение аэробного зала не предусмотрено. Сотрудники, для которых
+    приобретены клубные карты в аэробный зал, могут
+    по желанию, использовать их для посещения
+    тренажерного зала. Срок действия всех клубных
+    карт, приобретенных со скидкой – 3 месяц.
+    Возможна передача неиспользованных занятий
+    другому сотруднику организации.
+  </div> -->
+    </div>
+    
+
+    <div class="footer">
+      <div class="container-fluid">
+          <div class="row align-items-center justify-content-between text-center">
+              <div class="col-md-3 col-sm-12 my-3 text-sm ">
+                  <a href="/"><img src="images/Persona.png" class="logo mb-2" alt=""></a>
+                  <br>
+                  <a href="https://vk.com/personafitnessclub" target="_blank"><img src="images/vk.png"></a>
+                  <a href="https://ok.ru/group/60000720453665" target="_blank"><img src="images/tg.png"></a>
+              </div>
+              <div class="col-md-3 col-sm-12 d-flex flex-column footer_center text-sm ">
+                  <h5>Контакты</h5>
+                  <a href="tel:+78635044100">+7(863)504-41-00</a>
+                  <a href="mailto:personafit@mail.ru">personafit@mail.ru</a>
+                  <a> г. Аксай, улица Ленина 10 </a>
+
+              </div>
+              <div class="col-md-3 col-sm-12 text-sm">
+                  <h5>Документы</h5>
+                  <a href="">Политика конфиденциальности</a>
+                  <br>
+                  <a href="">Правила посещения клуба</a>
+                  <p>© 2022, фитнес-клуб PersonaLife</p>
+              </div>
+          </div>
+      </div>
+  </div>
+    </div>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
