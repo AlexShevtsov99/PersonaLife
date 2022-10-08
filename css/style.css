@@ -162,9 +162,8 @@ color: #000;
 .titul3 {
   font-weight: bold;
   text-align: center;
-  text-transform: uppercase;
   color: #fff;
-  font-size: calc(15px + 20 * (100vw / 1280));
+  font-size: calc(20px + 20 * (100vw / 1280));
 }
 
 .footer {
@@ -252,7 +251,7 @@ color: #000;
   color: white;
   background: rgb(126, 29, 29);
   background: linear-gradient(180deg, rgba(126, 29, 29, 1) 0%, rgba(138, 33, 33, 1) 50%, rgba(157, 39, 39, 1) 100%);
-  font-size: calc(10px + 10 * (100vw / 1280));
+  font-size: calc(15px + 7 * (100vw / 1280));
   padding: 20px 10px;
   line-height: 30px;
   text-align: center;
@@ -273,12 +272,12 @@ color: #000;
 
 .adv-right {
   text-align: justify;
-  font-size: calc(15px + 5 * (100vw / 1280));
+  font-size: calc(18px + 2 * (100vw / 1280));
 }
 
 .adv-right h3 {
   text-align: center;
-  font-size: 30px;
+  font-size: calc(25px + 5 * (100vw / 1280));
   margin-bottom: 20px;
 }
 
@@ -426,10 +425,7 @@ height: 60px;
   text-align: left;
   font-size: 22px;
 }
-.card-text {
-  font-size: 16px;
-  text-align: center;
-}
+
 .card-price {
   font-size: 20px;
   position: absolute;
